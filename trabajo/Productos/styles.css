@@ -200,7 +200,7 @@ footer {
 }
 
 /* Estilo para la página de inicio de sesión */
-main {
+.main-login {
     padding: 30px;
     background-color: white;
     margin: 20px;
@@ -256,6 +256,7 @@ footer {
     background-color: #2C3E50;
     color: white;
 }
+
 /* Estilo para el botón de volver */
 #volver-btn {
     background-color: #E74C3C;  /* Rojo para el botón de volver */
