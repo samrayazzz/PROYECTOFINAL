@@ -25,7 +25,6 @@ header {
     font-style: italic; /* Aplicar estilo en cursiva */
 }
 
-
 header h1 {
     font-size: 3em;
     margin-bottom: 10px;
@@ -198,4 +197,80 @@ footer {
     nav a {
         font-size: 12px;
     }
+}
+
+/* Estilo para la página de inicio de sesión */
+main {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #2C3E50;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1ABC9C;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+}
+/* Estilo para el botón de volver */
+#volver-btn {
+    background-color: #E74C3C;  /* Rojo para el botón de volver */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px; /* Espaciado superior */
+}
+
+#volver-btn:hover {
+    background-color: #C0392B;  /* Fondo más oscuro al pasar el ratón */
+    transform: scale(1.05);
 }
